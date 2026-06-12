@@ -45,6 +45,7 @@ Rode no terminal do vscode o backend: cd backend npm install npm run dev
 Abre o site pelo index e o backend teste no insomia
 
 # Prints
+![Captura de tela](Captura%20de%20tela%202026-06-12%20093206.png)
 
 
 
