@@ -1,4 +1,4 @@
-# hotelreservas
+# HOTEL RESERVAS
 
 Este projeto é um sistema que organiza as incrições, usuariose e eventos de um estabelicimento
 
@@ -41,3 +41,5 @@ Prisma
 Clone o repositório: git clone e o url da pasta
 Rode no terminal do vscode o backend: cd backend npm install npm run dev
 Abre o site pelo index e o backend teste no insomia
+
+# Prints
