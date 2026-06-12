@@ -3,7 +3,6 @@
 Este projeto é um sistema que organiza as incrições, usuariose e eventos de um estabelicimento
 
 # Funcionalidades
-Criar usuario
 
 Editar quarto
 
