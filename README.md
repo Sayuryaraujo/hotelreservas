@@ -1,6 +1,6 @@
 # HOTEL RESERVAS
 
-Este projeto é um sistema que organiza as incrições, usuariose e eventos de um estabelicimento
+Este projeto é um sistema que organiza as reservas e quartos de um estabelicimento
 
 # Funcionalidades
 
