@@ -1,0 +1,22 @@
+BANCO DE DADOS:
+
+CREATE DATABASE hotel;
+USE hotel;
+
+CREATE TABLE quartos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    numero VARCHAR(10) NOT NULL UNIQUE,
+    tipo VARCHAR(50) NOT NULL
+);
+ CREATE TABLE reservas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    hospede VARCHAR(100) NOT NULL,
+    data_entrada DATE NOT NULL,
+    data_saida DATE NOT NULL,
+    quarto_id INT NOT NULL,
+
+    CONSTRAINT fk_reserva_quarto
+        FOREIGN KEY (quarto_id)
+        REFERENCES quartos(id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE

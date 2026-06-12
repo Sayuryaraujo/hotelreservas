@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reservas</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Hotel Reservas</h2>
+
+        <a href="index.html">Quartos</a>
+        <a class="active" href="reserva.html">Reservas</a>
+    </aside>
+
+    <main class="content">
+
+        <div class="card">
+
+            <div class="header">
+                <div>
+                    <h1 id="titulo">Reservas</h1>
+                    <p>Gerencie as reservas do quarto</p>
+                </div>
+            </div>
+
+            <table>
+               <thead>
+                 <tr>
+                     <th>Número do Quarto</th>
+                     <th>Hóspede</th>
+                     <th>Entrada</th>
+                     <th>Saída</th>
+                     <th>Ações</th>
+                </tr>
+            </thead>
+
+<tbody id="reservasTable"></tbody>
+
+                <tbody id="reservasTable"></tbody>
+
+            </table>
+
+            <br>
+
+            <h3>Nova Reserva</h3>
+
+           <input placeholder="Número do quarto">
+           <input placeholder="Hóspede">
+           <input type="date">
+           <input type="date">
+
+            <button class="btn-primary" onclick="cadastrarReserva()">
+                Cadastrar Reserva
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<input 
+    type="text" 
+    id="buscarReserva" 
+    placeholder="Buscar hóspede ou quarto..."
+    oninput="buscarReservas()"
+>
+
+<script src="/web/js/script.js"></script>
+
+</body>
+</html>

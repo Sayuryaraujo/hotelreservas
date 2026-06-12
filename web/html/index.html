@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quartos</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Hotel Reservas</h2>
+
+        <a class="active" href="index.html">Quartos</a>
+        <a href="reserva.html">Reservas</a>
+    </aside>
+
+    <main class="content">
+
+        <div class="card">
+
+            <div class="header">
+                <div>
+                    <h1>Quartos</h1>
+                    <p>Lista de quartos cadastrados</p>
+                </div>
+
+                <a class="btn-primary" href="quarto.html">
+                    + Novo Quarto
+                </a>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Tipo</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="quartosTable"></tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-box">
+
+        <h2>Excluir Quarto</h2>
+        <p>Tem certeza que deseja excluir?</p>
+
+        <div class="modal-actions">
+            <button onclick="fecharModal()">Cancelar</button>
+            <button class="btn-delete" onclick="excluirQuarto()">Excluir</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="/web/js/script.js"></script>
+
+</body>
+</html>

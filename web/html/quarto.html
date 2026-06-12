@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Novo Quarto</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Hotel Reservas</h2>
+
+        <a href="index.html">Quartos</a>
+    </aside>
+
+    <main class="content">
+
+        <div class="form-card">
+
+            <h1>Cadastrar Quarto</h1>
+
+            <label>Número do Quarto</label>
+            <input type="number" placeholder="Ex: 101">
+
+            <label>Tipo</label>
+            <select>
+                <option>Selecione</option>
+                <option>Basico</option>
+                <option>Luxo</option>
+                <option>Suite</option>
+            </select>
+
+            <button class="btn-primary" onclick="cadastrarQuarto()">
+                Cadastrar
+            </button>
+
+            <a class="btn-secondary" href="index.html">
+                Voltar
+            </a>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="/web/js/script.js"></script>
+
